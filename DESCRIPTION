@@ -1,0 +1,17 @@
+Package: tremor
+Title: (Failed) Wrapping of React tremor.js
+Version: 0.0.0.9000
+Authors@R: person("Jonathan", "Carroll", 
+ email = "rpkg@jcarroll.com.au", 
+ role = c("aut", "cre"), 
+ comment = c(ORCID = "0000-0002-1404-5264"))
+Maintainer: Jonathan Carroll <rpkg@jcarroll.com.au>
+Description: Wrap tremor.js as a htmlWidget
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    htmltools,
+    htmlwidgets,
+    reactR
